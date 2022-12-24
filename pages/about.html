@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Acerca de... - web_juanledesma</title>
 </head>
+
 <body>
+
     <header class="container-fluid">
         <div id="header" class="row">
-            <h1>Bienvenidos</h1>
-            <nav class="menu">
-                <a class="menu__link" href="../index.html">Home</a> |
-                <a class="menu__link" href="./upcoming.html">Próximos eventos</a> |
-                <a class="menu__link" href="./media.html">Media</a> |
-                <a class="menu__link" href="./about.html">Acerca de</a> |
-                <a class="menu__link" href="./contact.html">Contacto</a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="fs-1 navbar-brand mb-0 h1" href="#">Inés Fonrouge</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="fs-5 nav-link" href="../index.html">Home</a>
+                            <a class="fs-5 nav-link" href="./upcoming.html">Próximos eventos</a>
+                            <a class="fs-5 nav-link" href="./media.html">Media</a>
+                            <a class="fs-5 nav-link active" aria-current="page" href="./about.html">Acerca de</a>
+                            <a class="fs-5 nav-link" href="./contact.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
@@ -27,9 +42,9 @@
         <div id="main" class="row">
             <section>
                 <!-- Contenido Placeholder -->
-                <article>
-                    <h2>Actualidad</h2>
-                    <p class="about__p">
+                <!-- <article>
+                    <h2 class="about__h2">Actualidad</h2>
+                    <p class="lh-base about__p">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quibusdam, quis excepturi accusantium ex harum, 
                         maxime velit sapiente eum reiciendis iure consequuntur dolorum sunt maiores consequatur id debitis sed dicta 
                         facilis! Eius eveniet aspernatur consequuntur amet natus inventore laborum maxime quibusdam doloribus. Quo vel 
@@ -41,21 +56,134 @@
                         facere officia enim voluptate. Laudantium unde doloremque dolorem non quo enim laborum culpa ea est fuga ipsam 
                         ipsum optio, at ab consequatur assumenda nemo debitis ratione accusamus aperiam quia, odit doloribus!
                     </p>
-                </article>
+                </article> -->
                 <article>
-                    <h2>Historia</h2>
-                    <p class="about__p">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quibusdam, quis excepturi accusantium ex harum, 
-                        maxime velit sapiente eum reiciendis iure consequuntur dolorum sunt maiores consequatur id debitis sed dicta 
-                        facilis! Eius eveniet aspernatur consequuntur amet natus inventore laborum maxime quibusdam doloribus. Quo vel 
-                        officiis omnis temporibus rem molestiae. Minima eaque provident, quas quis explicabo sunt repellat harum eligendi 
-                        in ab distinctio laudantium officiis dignissimos debitis et velit. Alias obcaecati placeat harum minus, deleniti 
-                        repellendus fuga. Dicta amet quasi quo earum odio ab blanditiis quod maiores, temporibus, explicabo a dolore illo 
-                        veniam magni! Voluptatem voluptates fuga voluptas et eos aliquam reprehenderit hic! Voluptatibus, exercitationem 
-                        atque eligendi quis, omnis obcaecati voluptatem quia cum ratione nobis, nihil impedit corrupti quos voluptatum 
-                        facere officia enim voluptate. Laudantium unde doloremque dolorem non quo enim laborum culpa ea est fuga ipsam 
-                        ipsum optio, at ab consequatur assumenda nemo debitis ratione accusamus aperiam quia, odit doloribus!
-                    </p>
+                    <h2 class="about__h2">Biografía</h2>
+                    <ul>
+                        <li class="about__li">Nacida en San Isidro, partido de la Provincia de Buenos Aires, Argentina.</li>
+                        <li>Licenciada en Artes Visuales con especialización en Dibujo y Pintura,
+                            egresada de la Universidad del Museo Social Argentino.</li>
+                        <li>Atravesó por los talleres de los maestros Eduardo Iglesias Brickles, Maria Inés Tapia Vera,
+                            Andres Bestard, Andrea Racciatti, Bernardo Kehoe y Nicolás Menza (en carácter de beca)</li>
+                        <li>Participó de varias muestras, tanto colectivas como individuales destacando:</li>
+                    </ul>
+                    <h6 class="about__h6">
+                        Encuentro Fase 4 de Arte y Tecnología: Post Ecología. Hacia una naturaleza y cultura sustentable
+                    </h6>
+                    <ul>
+                        <li>Proyecto Basurario. Curaduría de Kekena Corvalan y Luciana Acuña.</li>
+                        <li>Proyecto Basurario fue seleccionado para participar de una clínica de obra dirigida por
+                            Enrique Rivera, Director de la Bienal de Video y Artes Multimediales y Plataforma Cultural
+                            Digital de Chile.</li>
+                        <li>Centro Cultural Recoleta, CABA, año 2012</li>
+                    </ul>
+                    <h6>
+                        Arte Joven “MAJO 2013”
+                    </h6>
+                    <ul>
+                        <li>Fundación Rómulo Raggio, Vicente López, GBA, año 2013</li>
+                    </ul>
+                    <h6>
+                        La Huevada
+                    </h6>
+                    <ul>
+                        <li>Universidad UCEMA, CABA, año 2013</li>
+                    </ul>
+                    <h6>
+                        Procesos Creativos
+                    </h6>
+                    <ul>
+                        <li>Curaduría: Emiliana Scaramella</li>
+                        <li>Seleccionada por Universidad ESEADE, CABA, año 2014</li>
+                    </ul>
+                    <h6>
+                        Arte Espacio 2014, Homenaje a Felipe Noé
+                    </h6>
+                    <ul>
+                        <li>Seleccionada para participar de FOJA CERO</li>
+                        <li>Hipódromo de San Isidro, GBA, año 2014</li>
+                    </ul>
+                    <h6>
+                        Salón Joven
+                    </h6>
+                    <ul>
+                        <li>Seleccionada por Museo Provincial de Bellas Artes Emilio Pettoruti, La Plata</li>
+                        <li>Teatro Auditorium Mar del Plata, Provincia de Buenos Aires, año 2014</li>
+                    </ul>
+                    <h6>
+                        Juventus
+                    </h6>
+                    <ul>
+                        <li>Curaduría: Cecilia Medina y Soledad Villegas</li>
+                        <li>Espacio Cavallero, CABA, 2015</li>
+                    </ul>
+                    <h6>
+                        FAUNA
+                    </h6>
+                    <ul>
+                        <li>Universidad de Palermo, Espacio Cabrera, CABA, año 2015</li>
+                    </ul>
+                    <h6>
+                        Puertas Adentro
+                    </h6>
+                    <ul>
+                        <li>Convite, San Isidro, GBA, año 2015</li>
+                    </ul>
+                    <h6>
+                        La Casa sin Fin
+                    </h6>
+                    <ul>
+                        <li>Curaduría: Cecilia Medina</li>
+                        <li>Malvón, CABA, año 2015</li>
+                    </ul>
+                    <h6>
+                        PERCEPTIONS
+                    </h6>
+                    <ul>
+                        <li>Curaduría: Sergio Artola</li>
+                        <li>Casa Umare, Almagro, CABA, 2015</li>
+                    </ul>
+                    <h6>
+                        Deshojar el Tiempo
+                    </h6>
+                    <ul>
+                        <li>Curaduría: Inés Fonrouge</li>
+                        <li>Kenton Palace Hotel, CABA, 2016</li>
+                    </ul>
+                    <h6>
+                        La Casa sin Fin (Individual)
+                    </h6>
+                    <ul>
+                        <li>Seleccionada como proyecto finalista en la conovatoria de artistas 2016 en Espacio Cultural La Fragua Galeria</li>
+                        <li>Almagro, CABA, 2016</li>
+                    </ul>
+                    <h6>
+                        MUVIPA
+                    </h6>
+                    <ul>
+                        <li>Seleccionada por el Museo Virtual de Pachuca para Catálogo de artistas 2016, México</li>
+                    </ul>
+                    <h6>
+                        Casa de la Juventud
+                    </h6>
+                    <ul>
+                        <li>Mencion en la X Convocatoria de arte Contemporáneo de San Isidro, San Isidro, 2016</li>
+                    </ul>
+                    <h6>
+                        Desdibujo del tiempo
+                    </h6>
+                    <ul>
+                        <li>Diploma de Honor en Salón de Exposiciones del Honorable Concejo Deliberante, San Isidro, 2016</li>
+                    </ul>
+                    
+                    <p class="lh-base about__p"></p>
+                    <p class="lh-base about__p"></p>
+                    <p class="lh-base about__p"></p>
+                    <p class="lh-base about__p"></p>
+                    <p class="lh-base about__p"></p>
+                    <p class="lh-base about__p"></p>
+                    <p class="lh-base about__p"></p>
+                    <p class="lh-base about__p"></p>
                 </article>
             </section>
         </div>
@@ -64,13 +192,21 @@
 
     <footer class="container-fluid">
         <div id="footer" class="row">
-            <a href=""><img class="footer__social__icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook"></a>
-            <a href=""><img class="footer__social__icon" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram"></a>
-            <p class="copyright">©2022 - Todos los derechos reservados</p>
+            <!-- URLs a completar -->
+            <a class="col-6 text-end" href=""><img class="footer__social__icon"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"
+                    alt="Facebook"></a>
+            <a class="col-6 text-start" href=""><img class="footer__social__icon"
+                    src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram"></a>
+            <p class="text-center copyright">©2022 - Todos los derechos reservados</p>
         </div>
     </footer>
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
