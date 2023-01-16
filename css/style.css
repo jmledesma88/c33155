@@ -26,6 +26,11 @@ nav{
     background-color: crimson;
 }
 
+.nav-link{
+    transition: transform 0.2s;
+}
+
+
 h2{
     padding-left: 10px;
 }
@@ -99,7 +104,9 @@ ul li{
 }
 
 @media (min-width: 992px) {
-
+    .nav-link:hover{
+        transform: scale(1.05);
+    }    
 }
 
 @media (min-width: 1200px) { 
