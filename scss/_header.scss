@@ -1,0 +1,21 @@
+#header{
+    height: 15vh;
+    background-color: crimson;
+    nav{
+        background-color: crimson;
+        z-index: 10;
+        .nav-link{
+            transition: transform 0.2s;
+        }
+        ul{
+            li{
+                a{
+                    .active{
+                        color: whitesmoke;
+                        background-color: crimson;
+                    }
+                }
+            }
+        }
+    }
+}

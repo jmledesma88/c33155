@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    // min-height: 100vh;
+}
+
+@import "./header";
+@import "./main";
+@import "./footer";
+@import "./pages/index";
+@import "./pages/upcoming";
+@import "./pages/media";
+@import "./pages/about";
+@import "./pages/contact";
+@import "./mediaqueries";
+
