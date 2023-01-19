@@ -29,12 +29,12 @@
                             <a class="fs-5 nav-link" href="../../index.html">Home</a>
                             <a class="fs-5 nav-link" href="../media.html">Media</a>
                             <li class="nav-item dropdown">
-                                <a class="fs-5 nav-link dropdown-toggle" href="#" role="button"
+                                <a class="fs-5 nav-link dropdown-toggle active" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Galería
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item active" href="./pages/gallery/campo_de_batalla.html" aria-current="page">Campo de batallas</a></li>
+                                <li><a class="dropdown-item active" href="./campo_de_batalla.html" aria-current="page">Campo de batallas</a></li>
                                 <!-- <li><a class="dropdown-item" href="#">De siestas y sillones</a></li>
                                 <li><a class="dropdown-item" href="#">La Huevada</a></li>
                                 <li><a class="dropdown-item" href="#">La casa sin fin</a></li> -->
@@ -54,15 +54,45 @@
 
     <main class="container-fluid">
         <div id="main" class="row">
-            
+            <div id="carouselCdBControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="../../assets/images/el_rancho.webp" class="d-block w-100 carousel-img" alt="El Rancho">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="../../assets/images/el_orden_de_los_cuchillos.webp" class="d-block w-100 carousel-img" alt="El orden de los cuchillos">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="../../assets/images/la_esquina_del_rancho.webp" class="d-block w-100 carousel-img" alt="La esquina del Rancho">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="../../assets/images/empanadas_del_domingo.webp" class="d-block w-100 carousel-img" alt="Empanadas del domingo">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="../../assets/images/australian_breakfast.webp" class="d-block w-100 carousel-img" alt="Australian breakfast">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCdBControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCdBControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </main>
 
 
     <footer class="container-fluid">
         <div id="footer" class="row">
-            <a class="col-6 text-end" target="_blank" href="https://www.facebook.com/inesfonrougearte"><img class="footer__social__icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook"></a>
-            <a class="col-6 text-start" target="_blank" href="https://www.instagram.com/nessie.fonrouge/"><img class="footer__social__icon" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram"></a>
+            <span class="col-6 text-end">
+                <a target="_blank" href="https://www.facebook.com/inesfonrougearte"><img class="footer__social__icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook"></a>
+            </span>
+            <span class="col-6 text-start">
+                <a target="_blank" href="https://www.instagram.com/nessie.fonrouge/"><img class="footer__social__icon" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram"></a>
+            </span>
             <p class="text-center copyright">©2022 - Todos los derechos reservados</p>
         </div>
     </footer>

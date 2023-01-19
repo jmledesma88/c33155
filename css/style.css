@@ -13,13 +13,10 @@ body {
     z-index: 10; }
     #header nav .nav-link {
       transition: transform 0.2s; }
-    #header nav ul li a .active {
-      color: whitesmoke;
-      background-color: crimson; }
 
 #main {
   min-height: 75vh;
-  background-color: antiquewhite; }
+  background-color: whitesmoke; }
 
 #footer {
   height: 10vh;
@@ -36,6 +33,10 @@ body {
 
 .media__video {
   padding-top: 10px; }
+
+.carousel {
+  padding: 20px;
+  max-width: 843px; }
 
 .about__h2 {
   padding-top: 6px; }
