@@ -26,10 +26,19 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="fs-5 nav-link" href="../index.html">Home</a>
-                            <a class="fs-5 nav-link" href="./media.html">Media</a>
                             <a class="fs-5 nav-link active" aria-current="page" href="./about.html">Acerca de</a>
-                            <a class="fs-5 nav-link" href="./upcoming.html">Próximos eventos</a>
-                            <a class="fs-5 nav-link" href="./contact.html">Contacto</a>
+                            <li class="nav-item dropdown">
+                                <a class="fs-5 nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Galería
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./gallery/campo_de_batalla.html">Campo de batallas</a></li>
+                            </ul>
+                        </li>
+                        <a class="fs-5 nav-link" href="./upcoming.html">Próximos eventos</a>
+                        <a class="fs-5 nav-link" href="./media.html">Media</a>
+                        <a class="fs-5 nav-link" href="./contact.html">Contacto</a>
                         </div>
                     </div>
                 </div>
@@ -39,24 +48,13 @@
 
 
     <main class="container-fluid">
-        <div id="main" class="row">
-            <section>
-                <!-- Contenido Placeholder -->
-                <!-- <article>
-                    <h2 class="about__h2">Actualidad</h2>
-                    <p class="lh-base about__p">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quibusdam, quis excepturi accusantium ex harum, 
-                        maxime velit sapiente eum reiciendis iure consequuntur dolorum sunt maiores consequatur id debitis sed dicta 
-                        facilis! Eius eveniet aspernatur consequuntur amet natus inventore laborum maxime quibusdam doloribus. Quo vel 
-                        officiis omnis temporibus rem molestiae. Minima eaque provident, quas quis explicabo sunt repellat harum eligendi 
-                        in ab distinctio laudantium officiis dignissimos debitis et velit. Alias obcaecati placeat harum minus, deleniti 
-                        repellendus fuga. Dicta amet quasi quo earum odio ab blanditiis quod maiores, temporibus, explicabo a dolore illo 
-                        veniam magni! Voluptatem voluptates fuga voluptas et eos aliquam reprehenderit hic! Voluptatibus, exercitationem 
-                        atque eligendi quis, omnis obcaecati voluptatem quia cum ratione nobis, nihil impedit corrupti quos voluptatum 
-                        facere officia enim voluptate. Laudantium unde doloremque dolorem non quo enim laborum culpa ea est fuga ipsam 
-                        ipsum optio, at ab consequatur assumenda nemo debitis ratione accusamus aperiam quia, odit doloribus!
-                    </p>
-                </article> -->
+        <div id="main" class="row about__main">
+            <div class="margin"></div>
+            <section class="about__content">
+                <div class="text-center">
+                    <img class="img-fluid about__img" src="../assets/images/Ines_Digital.webp" alt="Inés Fonrouge">
+
+                </div>
                 <article>
                     <h2 class="about__h2">Biografía</h2>
                     <ul>
@@ -186,6 +184,7 @@
                     <p class="lh-base about__p"></p>
                 </article>
             </section>
+            <div class="margin"></div>
         </div>
     </main>
 

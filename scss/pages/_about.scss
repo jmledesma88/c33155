@@ -1,14 +1,15 @@
-.about__h2{
-    padding-top: 6px;
-}
-h2{
-    padding-left: 10px;
-}
-
-h6{
-    padding-left: 10px;
-}
-
-ul li{
-    list-style-type: none;
+section{
+    h2{
+        padding-top: 6px;
+        padding-left: 10px;
+    }
+    ul{
+        li{
+            list-style-type: none;
+            text-align: justify;        
+        }
+    }
+    h6{
+        padding-left: 10px;
+    }
 }
