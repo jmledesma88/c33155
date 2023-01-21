@@ -5,14 +5,21 @@
 body {
   width: 100vw; }
 
+@font-face {
+  font-family: Caveat;
+  src: url(../assets/fonts/Caveat-VariableFont_wght.ttf); }
+
 #header {
   height: 15vh;
   background: crimson; }
   #header nav {
     background: crimson;
     z-index: 10; }
+    #header nav .navbar-brand {
+      font-family: 'Caveat',cursive;
+      font-size: 2.5rem; }
     #header nav .nav-link {
-      transition: transform 0.2s; }
+      font-size: 1.3rem; }
 
 #main {
   min-height: 72vh;
@@ -53,17 +60,25 @@ section ul li {
 section h6 {
   padding-left: 10px; }
 
+.upcoming__main {
+  font-size: 1.2rem; }
+
 .contact__form {
   padding-top: 20px;
   max-width: 450px; }
 
-h5 {
+.sitemap__content h4 {
   padding-top: 3vh; }
 
-ul li {
-  list-style-type: none;
-  margin: none;
-  padding: none; }
+.sitemap__content ul {
+  font-size: 1.3rem; }
+  .sitemap__content ul li {
+    list-style-type: none;
+    margin: none; }
+
+@media (min-width: 330px) {
+  .navbar-brand {
+    font-size: 3rem; } }
 
 @media (min-width: 425px) {
   .about__img {
@@ -127,7 +142,8 @@ ul li {
 
 @media (min-width: 992px) {
   .nav-link:hover {
-    transform: scale(1.05); }
+    transition: transform 0.05s;
+    transform: scale(1.03); }
   .gallery__CdB {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
