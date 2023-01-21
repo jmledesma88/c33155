@@ -1,11 +1,15 @@
 #footer{
-    height: 10vh;
-    min-height: 60px;
+    height: 13vh;
+    min-height: 90px;
     color: $color-footer;
     background: $background-footer;
     .footer__social__icon{
         height: 20px;
         width: 20px;
         margin: 15px 0px 3px 0px;
-    }    
+    }
+    a{
+        color:$color-footer;
+        text-decoration:none;
+    }
 }

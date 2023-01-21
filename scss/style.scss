@@ -6,7 +6,6 @@
 }
 body {
     width: 100vw;
-    // min-height: 100vh;
 }
 
 @import "./header";
@@ -18,5 +17,5 @@ body {
 @import "./pages/about";
 @import "./pages/upcoming";
 @import "./pages/contact";
+@import "./pages/sitemap";
 @import "./mediaqueries";
-
