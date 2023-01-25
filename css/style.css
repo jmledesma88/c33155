@@ -11,9 +11,9 @@ body {
 
 #header {
   height: 15vh;
-  background: crimson; }
+  background: #c80f37; }
   #header nav {
-    background: crimson;
+    background: #c80f37;
     z-index: 10; }
     #header nav .navbar-brand {
       font-family: 'Caveat',cursive;
