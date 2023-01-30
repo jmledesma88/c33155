@@ -23,13 +23,13 @@ body {
 
 #main {
   min-height: 72vh;
-  background-color: white; }
+  background-color: #fafafa; }
 
 #footer {
   height: 13vh;
   min-height: 90px;
   color: whitesmoke;
-  background: linear-gradient(180deg, whitesmoke 0%, #505050 10%); }
+  background: #232323; }
   #footer .footer__social__icon {
     height: 20px;
     width: 20px;
@@ -48,6 +48,20 @@ body {
 .carousel {
   padding: 20px;
   max-width: 843px; }
+
+img {
+  max-width: 100%; }
+
+.gallery {
+  padding: 60px 0px; }
+  .gallery img {
+    background: #fff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer; }
+  .gallery #gallery-popup .modal-img {
+    width: 100%; }
 
 section h2 {
   padding-top: 6px;
