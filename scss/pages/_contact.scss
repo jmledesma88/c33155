@@ -1,3 +1,7 @@
+h2.text-center{
+    padding: 0px;
+    font-style: italic;
+}
 .contact__form{
     padding-top: 20px;
     max-width: 450px;
@@ -11,5 +15,10 @@
     .btn-outline:hover{
         color: $background-main !important;
         background-color: $background-header !important;
+    }
+    div{
+        #contact__comment{
+            height: 100px;
+        }
     }
 }

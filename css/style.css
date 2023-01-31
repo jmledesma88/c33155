@@ -12,6 +12,8 @@ body {
 #header {
   height: 15vh;
   background: #825f46; }
+  #header div.container-fluid {
+    padding: 0px 30px; }
   #header nav {
     background: #825f46;
     z-index: 10; }
@@ -87,6 +89,10 @@ section h6 {
 .upcoming__main {
   font-size: 1.2rem; }
 
+h2.text-center {
+  padding: 0px;
+  font-style: italic; }
+
 .contact__form {
   padding-top: 20px;
   max-width: 450px; }
@@ -98,6 +104,8 @@ section h6 {
   .contact__form .btn-outline:hover {
     color: #fafafa !important;
     background-color: #825f46 !important; }
+  .contact__form div #contact__comment {
+    height: 100px; }
 
 .sitemap__content h4 {
   padding-top: 3vh; }
@@ -133,29 +141,15 @@ section h6 {
     padding-left: 20px; }
   h6 {
     padding-left: 20px; }
-  .contact__form__div {
-    text-align: center; }
-  .gallery__CdB {
-    display: grid;
-    grid-template-columns: 1fr 30fr 1fr;
-    grid-template-areas: "margin carousel margin"; }
   .gallery__LH {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas: "margin carousel margin"; }
   .media__video {
     width: 480px;
-    height: 270px; }
-  .sitemap__main {
-    display: grid;
-    grid-template-columns: 0.8fr 1fr 0.8fr;
-    grid-template-areas: "margin sitemap__content margin"; } }
+    height: 270px; } }
 
 @media (min-width: 768px) {
-  .gallery__CdB {
-    display: grid;
-    grid-template-columns: 1fr 7fr 1fr;
-    grid-template-areas: "margin carousel margin"; }
   .gallery__LH {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -164,10 +158,6 @@ section h6 {
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
     grid-template-areas: "margin about__content margin"; }
-  .sitemap__main {
-    display: grid;
-    grid-template-columns: 1.2fr 1fr 1fr;
-    grid-template-areas: "margin sitemap__content margin"; }
   .media__video {
     width: 768px;
     height: 432px; } }
@@ -176,10 +166,6 @@ section h6 {
   .nav-link:hover {
     transition: transform 0.05s;
     transform: scale(1.03); }
-  .gallery__CdB {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "margin carousel margin"; }
   .gallery__LH {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -187,8 +173,4 @@ section h6 {
   .about__main {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "margin about__content margin"; }
-  .sitemap__main {
-    display: grid;
-    grid-template-columns: 1.4fr 1fr 1fr;
-    grid-template-areas: "margin sitemap__content margin"; } }
+    grid-template-areas: "margin about__content margin"; } }

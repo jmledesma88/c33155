@@ -6,6 +6,9 @@
 #header{
     height: 15vh;
     background: $background-header;
+    div.container-fluid{
+        padding: 0px 30px;
+    }
     nav{
         background: $background-header;
         z-index: 10;
