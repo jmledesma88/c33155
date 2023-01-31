@@ -1,4 +1,15 @@
 .contact__form{
     padding-top: 20px;
     max-width: 450px;
+    .btn-outline {
+        color:$background-header !important;
+        border-color: $background-header !important;
+    }
+    .form-check-input:checked{
+        background-color: $background-header;
+    }
+    .btn-outline:hover{
+        color: $background-main !important;
+        background-color: $background-header !important;
+    }
 }

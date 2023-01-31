@@ -11,15 +11,22 @@ body {
 
 #header {
   height: 15vh;
-  background: #c80f37; }
+  background: #825f46; }
   #header nav {
-    background: #c80f37;
+    background: #825f46;
     z-index: 10; }
     #header nav .navbar-brand {
+      color: #fafafa;
       font-family: 'Caveat',cursive;
       font-size: 2.5rem; }
     #header nav .nav-link {
+      color: #fafafa;
       font-size: 1.3rem; }
+    #header nav .active {
+      background-color: #825f46 !important; }
+    #header nav .dropdown-item:hover {
+      color: #fafafa;
+      background-color: #825f46; }
 
 #main {
   min-height: 72vh;
@@ -28,14 +35,14 @@ body {
 #footer {
   height: 13vh;
   min-height: 90px;
-  color: whitesmoke;
+  color: #fafafa;
   background: #232323; }
   #footer .footer__social__icon {
     height: 20px;
     width: 20px;
     margin: 15px 0px 3px 0px; }
   #footer a {
-    color: whitesmoke;
+    color: #fafafa;
     text-decoration: none; }
 
 .index__article__img {
@@ -83,6 +90,14 @@ section h6 {
 .contact__form {
   padding-top: 20px;
   max-width: 450px; }
+  .contact__form .btn-outline {
+    color: #825f46 !important;
+    border-color: #825f46 !important; }
+  .contact__form .form-check-input:checked {
+    background-color: #825f46; }
+  .contact__form .btn-outline:hover {
+    color: #fafafa !important;
+    background-color: #825f46 !important; }
 
 .sitemap__content h4 {
   padding-top: 3vh; }
