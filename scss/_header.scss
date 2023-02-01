@@ -10,6 +10,9 @@
         padding: 0px 30px;
     }
     nav{
+        .navbar{
+            align-items: center;
+        }
         background: $background-header;
         z-index: 10;
         .navbar-brand{
@@ -17,18 +20,21 @@
             font-family: 'Caveat',cursive;
             font-size: 2.5rem;
         }
+        .navbar-nav{
+            align-items: flex-end;
+        }
         .nav-link{
             color:$color-header;
             font-size: 1.3rem;
         }
         
         .active{
-            background-color: $background-header !important;
+            background-color: rgba(130, 95, 70, 0.5);
         } 
         
         .dropdown-item:hover{
             color: $background-main;
-            background-color: $background-header;
+            background-color: rgba(130, 95, 70, 0.7) !important;
         }
     }
 }

@@ -17,18 +17,22 @@ body {
   #header nav {
     background: #825f46;
     z-index: 10; }
+    #header nav .navbar {
+      align-items: center; }
     #header nav .navbar-brand {
       color: #fafafa;
       font-family: 'Caveat',cursive;
       font-size: 2.5rem; }
+    #header nav .navbar-nav {
+      align-items: flex-end; }
     #header nav .nav-link {
       color: #fafafa;
       font-size: 1.3rem; }
     #header nav .active {
-      background-color: #825f46 !important; }
+      background-color: rgba(130, 95, 70, 0.5); }
     #header nav .dropdown-item:hover {
       color: #fafafa;
-      background-color: #825f46; }
+      background-color: rgba(130, 95, 70, 0.7) !important; }
 
 #main {
   min-height: 72vh;
@@ -96,11 +100,17 @@ h2.text-center {
 .contact__form {
   padding-top: 20px;
   max-width: 450px; }
+  .contact__form .form-control:focus {
+    border-color: #fafafa;
+    box-shadow: 0 0 0 0.25rem rgba(130, 95, 70, 0.25); }
+  .contact__form .form-check-input:focus {
+    border-color: #fafafa;
+    box-shadow: 0 0 0 0.25rem rgba(130, 95, 70, 0.25); }
+  .contact__form .form-check-input:checked {
+    background-color: #825f46; }
   .contact__form .btn-outline {
     color: #825f46 !important;
     border-color: #825f46 !important; }
-  .contact__form .form-check-input:checked {
-    background-color: #825f46; }
   .contact__form .btn-outline:hover {
     color: #fafafa !important;
     background-color: #825f46 !important; }
@@ -111,7 +121,8 @@ h2.text-center {
   padding-top: 3vh; }
 
 .sitemap__content ul {
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  padding: 0px; }
   .sitemap__content ul li {
     list-style-type: none;
     margin: none; }

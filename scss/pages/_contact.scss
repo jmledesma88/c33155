@@ -5,12 +5,20 @@ h2.text-center{
 .contact__form{
     padding-top: 20px;
     max-width: 450px;
-    .btn-outline {
-        color:$background-header !important;
-        border-color: $background-header !important;
+    .form-control:focus{
+        border-color: $background-main;
+        box-shadow:0 0 0 0.25rem rgba(130, 95, 70, 0.25);
+    }
+    .form-check-input:focus{
+        border-color: $background-main;
+        box-shadow:0 0 0 0.25rem rgba(130, 95, 70, 0.25);
     }
     .form-check-input:checked{
         background-color: $background-header;
+    }
+    .btn-outline {
+        color:$background-header !important;
+        border-color: $background-header !important;
     }
     .btn-outline:hover{
         color: $background-main !important;

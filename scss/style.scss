@@ -1,13 +1,5 @@
 @import "./vars";
-
-*{
-    margin: 0;
-    padding: 0;
-}
-body {
-    width: 100vw;
-}
-
+@import "./body";
 @import "./header";
 @import "./main";
 @import "./footer";
