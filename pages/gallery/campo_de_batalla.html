@@ -10,7 +10,8 @@
         content="SERIE, MUESTRA, GALERIA, CUADROS, PINTURAS, INES, FONROUGE, ARTISTA, VISUAL, ARTE, PINTORA, PINTOR">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="../../css/style.css">
     <title>Campo de Batalla - Galería</title>
     <link rel="shortcut icon" type="image/png" href="../../assets/Icons/favicon.png">
@@ -59,40 +60,58 @@
         <section class="gallery min-vh-100">
             <div class="container-lg">
                 <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
-                    <div class="col">
-                        <img src="../../assets/images/campo_de_batalla/el_rancho.webp" alt="El Rancho"
-                            class="gallery-item" data-bs-toggle="modal" data-bs-target="#gallery__popup__el-rancho">
+                    <div data-aos="fade-up">
+                        <div class="col">
+                            <img src="../../assets/images/campo_de_batalla/timg/el_rancho.webp" alt="El Rancho"
+                                class="gallery-item" data-bs-toggle="modal" data-bs-target="#gallery__popup__el-rancho">
+                        </div>
                     </div>
-                    <div class="col">
-                        <img src="../../assets/images/campo_de_batalla/el_orden_de_los_cuchillos.webp"
-                            alt="El orden de los cuchillos" class="gallery-item" data-bs-toggle="modal"
-                            data-bs-target="#gallery__popup__el-orden-de-los-cuchillos">
+                    <div data-aos="fade-up">
+                        <div class="col">
+                            <img src="../../assets/images/campo_de_batalla/timg/el_orden_de_los_cuchillos.webp"
+                                alt="El orden de los cuchillos" class="gallery-item" data-bs-toggle="modal"
+                                data-bs-target="#gallery__popup__el-orden-de-los-cuchillos">
+                        </div>
                     </div>
-                    <div class="col">
-                        <img src="../../assets/images/campo_de_batalla/la_esquina_del_rancho.webp"
-                            alt="La esquina del Rancho" class="gallery-item" data-bs-toggle="modal"
-                            data-bs-target="#gallery__popup__la-esquina-del-rancho">
+                    <div data-aos="fade-up">
+                        <div class="col">
+                            <img src="../../assets/images/campo_de_batalla/timg/la_esquina_del_rancho.webp"
+                                alt="La esquina del Rancho" class="gallery-item" data-bs-toggle="modal"
+                                data-bs-target="#gallery__popup__la-esquina-del-rancho">
+                        </div>
                     </div>
-                    <div class="col">
-                        <img src="../../assets/images/campo_de_batalla/empanadas_del_domingo.webp"
-                            alt="Empanadas del domingo" class="gallery-item" data-bs-toggle="modal"
-                            data-bs-target="#gallery__popup__empanadas-del-domingo">
+                    <div data-aos="fade-up">
+                        <div class="col">
+                            <img src="../../assets/images/campo_de_batalla/timg/empanadas_del_domingo.webp"
+                                alt="Empanadas del domingo" class="gallery-item" data-bs-toggle="modal"
+                                data-bs-target="#gallery__popup__empanadas-del-domingo">
+                        </div>
                     </div>
-                    <div class="col">
-                        <img src="../../assets/images/campo_de_batalla/australian_breakfast.webp"
-                            alt="Australian Breakfast" class="gallery-item" data-bs-toggle="modal"
-                            data-bs-target="#gallery__popup__australian-breakfast">
+                    <div data-aos="fade-up">
+                        <div class="col">
+                            <img src="../../assets/images/campo_de_batalla/timg/australian_breakfast.webp"
+                                alt="Australian Breakfast" class="gallery-item" data-bs-toggle="modal"
+                                data-bs-target="#gallery__popup__australian-breakfast">
+                        </div>
+                    </div>
+                    <div data-aos="fade-up">
+                        <div class="col">
+                            <img src="../../assets/images/campo_de_batalla/timg/an_evening_at_ensign_ave.webp"
+                                alt="An evening at Ensign Ave." class="gallery-item" data-bs-toggle="modal"
+                                data-bs-target="#gallery__popup__an-evening-at-ensign-ave">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- MODALES DE IMÁGENES - FUERA DEL SECTION PARA QUE NO LES AFECTEN EL HOVER Y EL CURSOR -->
-        <div class="modal fade" id="gallery__popup__el-rancho" tabindex="-1" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="gallery__popup__el-rancho" tabindex="-1" aria-labelledby="el_rancho"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
+                        <h1 class="modal-title fs-6" id="el_rancho">El Rancho (Oleo sobre tela, 100x70cm, 2021)</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -103,67 +122,80 @@
             </div>
         </div>
         <div class="modal fade" id="gallery__popup__el-orden-de-los-cuchillos" tabindex="-1"
-            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            aria-labelledby="el_orden_de_los_cuchillos" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
+                        <h1 class="modal-title fs-6" id="el_orden_de_los_cuchillos">El orden de los cuchillos (Oleo sobre papel, 35x25cm, 2022)</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <img src="../../assets/images/campo_de_batalla/el_orden_de_los_cuchillos.webp" class="modal-img"
-                            alt="El Rancho">
+                            alt="El orden de los cuchillos">
                     </div>
                 </div>
             </div>
         </div>
         <div class="modal fade" id="gallery__popup__la-esquina-del-rancho" tabindex="-1"
-            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            aria-labelledby="la_esquina_del_rancho" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
+                        <h1 class="modal-title fs-6" id="la_esquina_del_rancho">La esquina del rancho   (Oleo sobre papel, 35x25cm, 2022)</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <img src="../../assets/images/campo_de_batalla/la_esquina_del_rancho.webp" class="modal-img"
-                            alt="El Rancho">
+                            alt="La esquina del rancho">
                     </div>
                 </div>
             </div>
         </div>
         <div class="modal fade" id="gallery__popup__empanadas-del-domingo" tabindex="-1"
-            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            aria-labelledby="empanadas_del_domingo" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
+                        <h1 class="modal-title fs-6" id="empanadas_del_domingo">Empanadas del domingo (Acrílico sobre tela, 110x80cm, 2019)</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <img src="../../assets/images/campo_de_batalla/empanadas_del_domingo.webp" class="modal-img"
-                            alt="El Rancho">
+                            alt="Empanadas del domingo">
                     </div>
                 </div>
             </div>
         </div>
         <div class="modal fade" id="gallery__popup__australian-breakfast" tabindex="-1"
-            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            aria-labelledby="australian_breakfast" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
+                        <h1 class="modal-title fs-6" id="australian_breakfast">Australian Breakfast (Acrílico sobre madera, 40x35cm, 2018)</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <img src="../../assets/images/campo_de_batalla/australian_breakfast.webp" class="modal-img"
-                            alt="El Rancho">
+                            alt="Australian Breakfast">
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
+        <div class="modal fade" id="gallery__popup__an-evening-at-ensign-ave" tabindex="-1"
+            aria-labelledby="an_evening_at_ensign_ave" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-6" id="an_evening_at_ensign_ave">An evening at Ensign Ave. (Boceto digital, 2021)</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../../assets/images/campo_de_batalla/an_evening_at_ensign_ave.webp" class="modal-img"
+                            alt="An evening at Ensign Ave.">
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </main>
@@ -187,7 +219,9 @@
         </div>
     </footer>
 
-
+    <script>
+        AOS.init();
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
