@@ -11,7 +11,8 @@ body {
 
 #header {
   height: 15vh;
-  background: #825f46; }
+  background: #825f46;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3); }
   #header div.container-fluid {
     padding: 0px 20px; }
   #header nav {
@@ -79,13 +80,8 @@ img {
   .gallery #gallery-popup .modal-img {
     width: 100%; }
 
-section h2 {
-  padding-top: 6px;
-  padding-left: 10px; }
-
-section ul li {
-  list-style-type: none;
-  text-align: justify; }
+.about__content ul li {
+  list-style-type: square; }
 
 .upcoming__main {
   font-size: 1.2rem; }
@@ -132,10 +128,6 @@ h2.text-center {
     font-size: 3rem; }
   .about__img {
     max-width: 425px; }
-  .gallery__LH {
-    display: grid;
-    grid-template-columns: 1fr 12fr 1fr;
-    grid-template-areas: "margin carousel margin"; }
   .media__video {
     width: 380px;
     height: 214px; } }
@@ -143,25 +135,11 @@ h2.text-center {
 @media (min-width: 576px) {
   .index__article__img {
     padding: 15px; }
-  .about__h2 {
-    padding: 6px 15px 0px 15px; }
-  h2 {
-    padding-left: 20px; }
-  h6 {
-    padding-left: 20px; }
-  .gallery__LH {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-areas: "margin carousel margin"; }
   .media__video {
     width: 480px;
     height: 270px; } }
 
 @media (min-width: 768px) {
-  .gallery__LH {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-areas: "margin carousel margin"; }
   .media__video {
     width: 768px;
     height: 432px; } }
@@ -169,8 +147,4 @@ h2.text-center {
 @media (min-width: 992px) {
   .nav-link:hover {
     transition: transform 0.05s;
-    transform: scale(1.03); }
-  .gallery__LH {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "margin carousel margin"; } }
+    transform: scale(1.03); } }
