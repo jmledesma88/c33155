@@ -1,0 +1,32 @@
+.card{
+    max-width: 600px;    
+}
+.card:hover {
+    transition: transform 300ms;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+.card-footer{
+    background: none;
+    border: none;
+    text-align: end;
+    a{
+        text-decoration: none;
+        color: $background-header;
+    }
+    a:hover{
+        color: $background-header;
+        text-decoration: underline;
+    }
+}
+.img__article{
+    width: 100%;
+}
+.article__link{
+    text-decoration: none;
+    color: $background-header;
+}
+.article__link:hover{
+    color: $background-header;
+    text-decoration: underline;
+}

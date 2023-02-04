@@ -38,6 +38,8 @@ body {
 #main {
   min-height: 72vh;
   background-color: #fafafa; }
+  #main .row {
+    margin: 0; }
 
 #footer {
   height: 13vh;
@@ -59,32 +61,55 @@ body {
 .media__video {
   padding-top: 10px; }
 
-.carousel {
-  padding: 20px;
-  max-width: 843px; }
-
 img {
   max-width: 100%; }
 
-.gallery {
-  padding: 60px 0px; }
-  .gallery img {
-    background: #fff;
-    padding: 15px;
-    width: 100%;
-    cursor: pointer; }
-  .gallery img:hover {
-    transition: transform 1s;
-    transform: scale(1.03);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); }
-  .gallery #gallery-popup .modal-img {
-    width: 100%; }
+.gallery img {
+  background: #fff;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer; }
+
+.gallery img:hover {
+  transition: transform 1s;
+  transform: scale(1.03);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); }
+
+.gallery #gallery-popup .modal-img {
+  width: 100%; }
 
 .about__content ul li {
   list-style-type: square; }
 
-.upcoming__main {
-  font-size: 1.2rem; }
+.card {
+  max-width: 600px; }
+
+.card:hover {
+  transition: transform 300ms;
+  transform: scale(1.03);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); }
+
+.card-footer {
+  background: none;
+  border: none;
+  text-align: end; }
+  .card-footer a {
+    text-decoration: none;
+    color: #825f46; }
+  .card-footer a:hover {
+    color: #825f46;
+    text-decoration: underline; }
+
+.img__article {
+  width: 100%; }
+
+.article__link {
+  text-decoration: none;
+  color: #825f46; }
+
+.article__link:hover {
+  color: #825f46;
+  text-decoration: underline; }
 
 h2.text-center {
   padding: 0px;
@@ -128,16 +153,14 @@ h2.text-center {
     font-size: 3rem; }
   .about__img {
     max-width: 425px; }
-  .media__video {
-    width: 380px;
-    height: 214px; } }
+  .article__main {
+    padding: 0 10px; } }
 
 @media (min-width: 576px) {
   .index__article__img {
     padding: 15px; }
-  .media__video {
-    width: 480px;
-    height: 270px; } }
+  .article__main {
+    padding: 0 20px; } }
 
 @media (min-width: 768px) {
   .media__video {
@@ -147,4 +170,6 @@ h2.text-center {
 @media (min-width: 992px) {
   .nav-link:hover {
     transition: transform 0.05s;
-    transform: scale(1.03); } }
+    transform: scale(1.03); }
+  .article__main {
+    padding: 0 30px; } }

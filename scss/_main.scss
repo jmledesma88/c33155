@@ -1,4 +1,7 @@
 #main{
     min-height: 72vh;
     background-color: $background-main;
+    .row{
+        margin: 0;
+    }
 }
