@@ -1,13 +1,22 @@
 .sitemap__content{
-    h4{
-        padding-top: 3vh;
-    }
     ul{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         padding: 0px;
+        a{
+            text-decoration: none;
+            color: $background-header;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: $background-header;
+        }
         li{
-            list-style-type: none;
-            margin: none;
+            margin-left: 1rem;
+            ul{
+                li{
+                    font-size: 1rem;
+                }
+            }
         }
     }
 }

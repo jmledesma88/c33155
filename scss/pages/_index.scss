@@ -1,3 +1,15 @@
-.index__article__img{
-    max-height: 72vh;
+// .index__article__img{
+//     max-height: 72vh;
+// }
+.img__main{
+    margin: 0;
+    padding: 0;
+    height: 72vh;
+}
+#index__main{
+    height: 72vh;
+    min-height: 400px;
+    background-size: cover;
+    background-position: 55% 40%;
+    background-image: url(https://static.wixstatic.com/media/f487b0_25434844890d4e73a06040e8e91ff0ef~mv2.jpeg/v1/fill/w_990,h_642,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f487b0_25434844890d4e73a06040e8e91ff0ef~mv2.jpeg);
 }
