@@ -18,6 +18,7 @@ Desde la revisión en la clase final hice los siguientes cambios (entre otros):
 - Cambié de usar muchos id's y clases personalizadas a usar mayormente bootstrap y eventualmente modificar las clases de bootstrap en la mayoría de los casos.
 - Saqué todas las grid (que no eran de bootstrap) que usaba en mediaqueries para centrar elementos y pasé todo a clases de bootstrap.
 - Cambié la paleta general y las fuentes del sitio por algo mas en linea con el estilo y la temática de la web.
+- Agregué una background image al Home.
 - Quité la página Media en la que tenía un video que había subido para aplicar los conocimientos de clases pasadas según los requisitos de preentregas anteriores.
 - Quité la sección "próximos eventos" ya que Inés no tiene ningun evento programado en el corto plaze y en su lugar agregué la sección Notas donde subí usando cards 
   las notas más relevantes que le hicieron durante los pasados años. Cada card linkea a un nuevo html con el artículo completo y una foto con un modal.
