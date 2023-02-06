@@ -9,10 +9,20 @@ body {
   font-family: Caveat;
   src: url(../assets/fonts/Caveat-VariableFont_wght.ttf); }
 
+@font-face {
+  font-family: NanumGothic;
+  src: url(../assets/fonts/NanumGothic-Regular.ttf); }
+
+@font-face {
+  font-family: RobotoSlab;
+  src: url(../assets/fonts/RobotoSlab-VariableFont_wght.ttf); }
+
 #header {
   height: 15vh;
   background: #836754;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
   #header div.container-fluid {
     padding: 0px 20px; }
   #header nav {
@@ -22,14 +32,12 @@ body {
       align-items: center; }
     #header nav .navbar-brand {
       color: #fafafa;
-      font-family: 'Caveat',cursive;
+      font-family: 'Caveat',cursive !important;
       font-size: 2.5rem; }
     #header nav .navbar-nav {
       align-items: flex-end; }
     #header nav .nav-link {
-      color: #fafafa;
-      font-size: 1.5rem;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+      color: #fafafa; }
     #header nav .dropdown-item.active {
       background-color: rgba(131, 103, 84, 0.6); }
     #header nav .dropdown-item:hover {
@@ -45,7 +53,8 @@ body {
 #main {
   min-height: 72vh;
   background-color: #fafafa;
-  padding: 0; }
+  padding: 0;
+  font-family: RobotoSlab; }
   #main .row {
     margin: 0; }
 
@@ -53,6 +62,7 @@ body {
   height: 13vh;
   min-height: 100px;
   color: #fafafa;
+  font-family: RobotoSlab;
   background: #63625f; }
   #footer img {
     height: 25px;
@@ -75,7 +85,8 @@ img {
   max-width: 100%; }
 
 .gallery img {
-  background: #fff;
+  background: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   padding: 15px;
   width: 100%;
   cursor: pointer; }
@@ -146,6 +157,13 @@ h2.text-center {
     background-color: #836754 !important; }
   .contact__form div #contact__comment {
     height: 100px; }
+
+.contact__col {
+  max-width: 450px !important; }
+
+.contact__arrow-down {
+  height: 78px;
+  width: 101px; }
 
 .sitemap__content ul {
   font-size: 1.1rem;

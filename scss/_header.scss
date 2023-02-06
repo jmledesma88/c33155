@@ -2,6 +2,9 @@
     height: 15vh;
     background: $background-header;
     box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
     div.container-fluid{
         padding: 0px 20px;
     }
@@ -13,7 +16,7 @@
         z-index: 10;
         .navbar-brand{
             color:$color-header;
-            font-family: 'Caveat',cursive;
+            font-family: 'Caveat',cursive !important;
             font-size: 2.5rem;
         }
         .navbar-nav{
@@ -21,8 +24,6 @@
         }
         .nav-link{
             color:$color-header;
-            font-size: 1.5rem;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
         
         .dropdown-item.active{
