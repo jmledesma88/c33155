@@ -38,7 +38,9 @@ body {
     #header nav .navbar-toggler.navbar-dark {
       border: 0; }
     #header nav .navbar-toggler.navbar-dark:focus {
-      box-shadow: none !important; }
+      box-shadow: none; }
+    #header nav .nav-link.dropdown-toggle.show:focus {
+      box-shadow: none; }
 
 #main {
   min-height: 72vh;

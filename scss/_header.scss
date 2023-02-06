@@ -38,7 +38,10 @@
 
         }
         .navbar-toggler.navbar-dark:focus{
-            box-shadow: none !important;
+            box-shadow: none;
+        }
+        .nav-link.dropdown-toggle.show:focus{
+            box-shadow: none;
         }
     }
 }
