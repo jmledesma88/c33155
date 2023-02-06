@@ -25,13 +25,20 @@
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
         
-        .active{
-            background-color: rgba(130, 95, 70, 0.5);
+        .dropdown-item.active{
+            background-color: rgba($background-header, 0.6);
         } 
         
         .dropdown-item:hover{
             color: $background-main;
-            background-color: rgba(130, 95, 70, 0.7) !important;
+            background-color: rgba($background-header, 0.75) !important;
+        }
+        .navbar-toggler.navbar-dark{
+            border:0;
+
+        }
+        .navbar-toggler.navbar-dark:focus{
+            box-shadow: none !important;
         }
     }
 }

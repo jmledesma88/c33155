@@ -11,12 +11,12 @@ body {
 
 #header {
   height: 15vh;
-  background: #825f46;
+  background: #836754;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3); }
   #header div.container-fluid {
     padding: 0px 20px; }
   #header nav {
-    background: #825f46;
+    background: #836754;
     z-index: 10; }
     #header nav .navbar {
       align-items: center; }
@@ -30,11 +30,15 @@ body {
       color: #fafafa;
       font-size: 1.5rem;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
-    #header nav .active {
-      background-color: rgba(130, 95, 70, 0.5); }
+    #header nav .dropdown-item.active {
+      background-color: rgba(131, 103, 84, 0.6); }
     #header nav .dropdown-item:hover {
       color: #fafafa;
-      background-color: rgba(130, 95, 70, 0.7) !important; }
+      background-color: rgba(131, 103, 84, 0.75) !important; }
+    #header nav .navbar-toggler.navbar-dark {
+      border: 0; }
+    #header nav .navbar-toggler.navbar-dark:focus {
+      box-shadow: none !important; }
 
 #main {
   min-height: 72vh;
@@ -47,20 +51,16 @@ body {
   height: 13vh;
   min-height: 100px;
   color: #fafafa;
-  background: #232323; }
+  background: #63625f; }
   #footer img {
-    height: 20px;
-    width: 20px; }
+    height: 25px;
+    width: 25px; }
   #footer a {
     color: #fafafa;
     text-decoration: none; }
   #footer #footer__copyright {
-    font-size: 0.75rem; }
-
-.img__main {
-  margin: 0;
-  padding: 0;
-  height: 72vh; }
+    font-size: 0.75rem;
+    margin: 0; }
 
 #index__main {
   height: 72vh;
@@ -68,9 +68,6 @@ body {
   background-size: cover;
   background-position: 55% 40%;
   background-image: url(https://static.wixstatic.com/media/f487b0_25434844890d4e73a06040e8e91ff0ef~mv2.jpeg/v1/fill/w_990,h_642,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f487b0_25434844890d4e73a06040e8e91ff0ef~mv2.jpeg); }
-
-.media__video {
-  padding-top: 10px; }
 
 img {
   max-width: 100%; }
@@ -106,9 +103,9 @@ img {
   text-align: end; }
   .card-footer a {
     text-decoration: none;
-    color: #825f46; }
+    color: #836754; }
   .card-footer a:hover {
-    color: #825f46;
+    color: #836754;
     text-decoration: underline; }
 
 .img__article {
@@ -117,10 +114,10 @@ img {
 
 .article__link {
   text-decoration: none;
-  color: #825f46; }
+  color: #836754; }
 
 .article__link:hover {
-  color: #825f46;
+  color: #836754;
   text-decoration: underline; }
 
 h2.text-center {
@@ -137,14 +134,14 @@ h2.text-center {
     border-color: #fafafa;
     box-shadow: 0 0 0 0.25rem rgba(130, 95, 70, 0.25); }
   .contact__form .form-check-input:checked {
-    border-color: #825f46;
-    background-color: #825f46; }
+    border-color: #836754;
+    background-color: #836754; }
   .contact__form .btn-outline {
-    color: #825f46 !important;
-    border-color: #825f46 !important; }
+    color: #836754 !important;
+    border-color: #836754 !important; }
   .contact__form .btn-outline:hover {
     color: #fafafa !important;
-    background-color: #825f46 !important; }
+    background-color: #836754 !important; }
   .contact__form div #contact__comment {
     height: 100px; }
 
@@ -153,10 +150,10 @@ h2.text-center {
   padding: 0px; }
   .sitemap__content ul a {
     text-decoration: none;
-    color: #825f46; }
+    color: #836754; }
   .sitemap__content ul a:hover {
     text-decoration: underline;
-    color: #825f46; }
+    color: #836754; }
   .sitemap__content ul li {
     margin-left: 1rem; }
     .sitemap__content ul li ul li {
@@ -168,24 +165,9 @@ h2.text-center {
   #header nav .navbar-brand {
     font-size: 3rem; }
   .about__img {
-    max-width: 425px; }
-  .article__main {
-    padding: 0 10px; } }
-
-@media (min-width: 576px) {
-  .index__article__img {
-    padding: 15px; }
-  .article__main {
-    padding: 0 20px; } }
-
-@media (min-width: 768px) {
-  .media__video {
-    width: 768px;
-    height: 432px; } }
+    max-width: 425px; } }
 
 @media (min-width: 992px) {
   .nav-link:hover {
     transition: transform 0.05s;
-    transform: scale(1.03); }
-  .article__main {
-    padding: 0 30px; } }
+    transform: scale(1.03); } }

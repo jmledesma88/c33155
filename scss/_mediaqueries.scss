@@ -15,37 +15,18 @@
     .about__img{
         max-width: 425px;
     }
-    .article__main{
-        padding: 0 10px;
-    }
 }
 
 @media (min-width: 576px) {
-    .index__article__img{
-        padding: 15px;
-    }
-    .article__main{
-        padding: 0 20px;
-    }
 }
 
 @media (min-width: 768px) { 
-    .media__video{
-        width: 768px;
-        height: 432px;
-    }
-
-
-
 }
 
 @media (min-width: 992px) {
     .nav-link:hover{
         transition: transform 0.05s;
         transform: scale(1.03);
-    }
-    .article__main{
-        padding: 0 30px;
     }
 }
 
