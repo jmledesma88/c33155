@@ -12,6 +12,17 @@
             }
         }
     }
+    #index__header{
+        div.container-fluid{
+            padding: 0px 30px;
+        }
+        nav{
+            .navbar-brand{
+                font-size: 3rem;
+            }
+        }
+    }
+
     .about__img{
         max-width: 425px;
     }

@@ -27,6 +27,7 @@
         }
         .dropdown-item{
             color:$background-header;
+            font-size: 1.2rem;
         }
 
         .dropdown-item.active{
@@ -79,6 +80,7 @@
         }
         .dropdown-item{
             color:$color-header;
+            font-size: 1.2rem;
         }
         .dropdown-item.active{
             background-color: rgba($background-header, 0.6);
