@@ -12,10 +12,10 @@
     text-align: end;
     a{
         text-decoration: none;
-        color: $background-header;
+        color: $color-main;
     }
     a:hover{
-        color: $background-header;
+        color: $color-main;
         text-decoration: underline;
     }
 }
@@ -26,9 +26,9 @@
 }
 .article__link{
     text-decoration: none;
-    color: $background-header;
+    color: $color-main;
 }
 .article__link:hover{
-    color: $background-header;
+    color: $color-main;
     text-decoration: underline;
 }

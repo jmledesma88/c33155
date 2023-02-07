@@ -15,15 +15,15 @@ h2.text-center{
     }
     .form-check-input:checked{
         border-color: $background-header;
-        background-color: $background-header;
+        background-color: $color-main;
     }
     .btn-outline {
-        color:$background-header !important;
-        border-color: $background-header !important;
+        color:$color-main !important;
+        border-color: $color-main !important;
     }
     .btn-outline:hover{
         color: $background-main !important;
-        background-color: $background-header !important;
+        background-color: $color-main !important;
     }
     div{
         #contact__comment{

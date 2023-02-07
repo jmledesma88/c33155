@@ -17,9 +17,9 @@
 
 <body>
 
-    <header class="container-fluid sticky-top">
-        <div id="header" class="row">
-            <nav class="navbar navbar-expand-lg">
+    <header class="container-fluid fixed-top">
+        <div id="index__header" class="row">
+            <nav class="navbar navbar-expand-lg background-transparent">
                 <div class="container-fluid">
                     <a class="navbar-brand mb-0 h1" href="./index.html">Inés Fonrouge</a>
                     <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
@@ -32,11 +32,11 @@
                             <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                             <a class="nav-link" href="./pages/about.html">Acerca de</a>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                <a class="nav-link dropdown-toggle text-end" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     Galería
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu dropdown-menu-text">
                                     <li><a class="dropdown-item" href="./pages/gallery/campo_de_batalla.html">Campo de
                                             batallas</a></li>
                                     <li><a class="dropdown-item" href="./pages/gallery/la_huevada.html">La Huevada</a>
@@ -50,15 +50,12 @@
                 </div>
             </nav>
         </div>
+
     </header>
 
 
     <main id="index__main">
-    </main>
-
-
-    <footer class="container-fluid">
-        <div id="footer" class="row justify-content-center">
+        <div id="index__footer" class="row justify-content-center fixed-bottom background-transparent">
             <div class="row mt-2 justify-content-center">
                 <div class="col text-center">
                     <a target="_blank" href="https://www.facebook.com/inesfonrougearte"><img
@@ -77,7 +74,30 @@
                 <p id="footer__copyright" class="col text-center copyright">©2022 - Todos los derechos reservados</p>
             </div>
         </div>
-    </footer>
+    </main>
+
+
+    <!-- <footer class="container-fluid">
+        <div id="index__footer" class="row justify-content-center background-transparent">
+            <div class="row mt-2 justify-content-center">
+                <div class="col text-center">
+                    <a target="_blank" href="https://www.facebook.com/inesfonrougearte"><img
+                            src="./assets/Icons/fb-ico.png"
+                            alt="Facebook" class="m-1"></a>
+                    <a target="_blank" href="https://www.instagram.com/nessie.fonrouge/"><img
+                            src="./assets/Icons/inst-ico.png" alt="Instagram" class="m-1"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <a href="./pages/sitemap.html">Mapa del sitio</a>
+                </div>
+            </div>
+            <div class="row">
+                <p id="footer__copyright" class="col text-center copyright">©2022 - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer> -->
 
 
 

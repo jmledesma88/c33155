@@ -17,3 +17,22 @@
         margin: 0;
     }
 }
+#index__footer{
+    height: 0vh;
+    min-height: 90px;
+    color: $color-footer;
+    font-family: RobotoSlab;
+    // background: $background-footer;
+    img{
+        height: 25px;
+        width: 25px;
+    }
+    a{
+        color:$color-footer;
+        text-decoration:none;
+    }
+    #footer__copyright{
+        font-size: 0.75rem;
+        margin: 0;
+    }
+}

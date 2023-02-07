@@ -28,6 +28,9 @@
         transition: transform 0.05s;
         transform: scale(1.03);
     }
+    .dropdown-menu-text{
+        text-align: start !important;
+    }
 }
 
 @media (min-width: 1200px) { 

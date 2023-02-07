@@ -1,7 +1,7 @@
 #index__main{
-    height: 76vh;
+    height: 100vh;
     min-height: 400px;
     background-size: cover;
     background-position: 55% 40%;
-    background-image: url(https://static.wixstatic.com/media/f487b0_25434844890d4e73a06040e8e91ff0ef~mv2.jpeg/v1/fill/w_990,h_642,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f487b0_25434844890d4e73a06040e8e91ff0ef~mv2.jpeg);
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.15) 30%, rgba(0,0,0,0.15) 80%, rgba(0,0,0,0.9) 100%), url(https://static.wixstatic.com/media/f487b0_25434844890d4e73a06040e8e91ff0ef~mv2.jpeg/v1/fill/w_990,h_642,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f487b0_25434844890d4e73a06040e8e91ff0ef~mv2.jpeg);
 }
